@@ -1,0 +1,67 @@
+.login-area {
+	
+	height: auto;
+	width: 80%;
+	margin: 20px;
+	border: 3px solid black;
+	display: flex;
+	flex-direction: row;
+	min-height: 100%;
+	
+}
+
+.nav-left {
+	height: 300px;
+	width: 30%;
+	margin: 5px;
+	border: 3px solid black;
+	
+}
+
+.content-right {
+	height: 300px;
+	width: 100%;
+	margin: 5px;
+	border: 3px solid black;
+	
+}
+html {
+	overflow-x: hidden;
+}
+
+
+body {
+	font-family: 'Muli', sans-serif;
+	color: black;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+
+;
+}
+
+h1 {
+	font-size: 4rem;
+
+}
+
+.welcome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 40px;
+
+}
+
+#myVideo {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+  filter:grayscale(40%);
+}

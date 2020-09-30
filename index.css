@@ -1,0 +1,110 @@
+html {
+	overflow-x: hidden;
+}
+
+
+body {
+	font-family: 'Muli', sans-serif;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+;
+}
+
+h1 {
+	font-size: 4rem;
+
+}
+
+.welcome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 40px;
+
+}
+
+#myVideo {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+  filter:grayscale(40%);
+}
+
+.login-area {
+	border: 0px solid white;
+	width: 10%;
+	height: auto;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+
+}
+
+
+.creden:focus {
+	outline: none;
+}
+
+input {
+
+	padding: 10px;
+}
+
+
+.creden {
+	display: flex; 
+	flex-direction: column;
+	font-size: 15px;
+	border: 0px;
+	border-radius: 15px;
+	margin: 5px;
+	width: 280px;
+	left: 20px;
+}
+
+
+
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+}
+
+#smaller {
+	width: 300px;
+}
+
+.password-box {
+	width: 50%
+}
+
+.password-go {
+	display: flex;
+	flex-direction: row;
+	width: 200%;
+}
+
+button {
+	background-color: transparent;
+	border: 0px;
+	color: white;
+	filter: invert(100%);
+	outline: none;
+
+}
+#icon-sub {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	outline: none;
+}
